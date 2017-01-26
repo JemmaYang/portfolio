@@ -1,3 +1,6 @@
+
+/*home page project image*/
+
 .photo-grid-container {    
    overflow: hidden;
 }
@@ -36,6 +39,31 @@
   transform: scale(1.2);
 }
 
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-size:16px;
+  font-weight: bold;
+  position:relative;
+  float:left;
+  margin-top:10px; 
+  margin-left:10px; 
+  color:#4d4d4d;
+}
+
+.time {
+  font-family: "Open Sans", sans-serif;
+  font-size:12px;
+  position:relative;
+  float:right;
+  margin-top:10px;
+  margin-right:10px;   
+  color:#878787;
+}
+
+
+/*navigate bar*/
+
 #mySidenav {
     border-right: 5px solid #50C198;
     background-color: white;
@@ -73,6 +101,8 @@
   transform: translateX(8px);
 }
 
+/*sidebar foot*/
+
 .foot{
   position: relative;
   float:left;
@@ -90,6 +120,8 @@
   margin-left: 21px;
 }
 
+/*home page filter*/
+
 #filter{
   padding-left: 16px;
   color: #878787;
@@ -104,26 +136,9 @@
   text-decoration: none;
 }
 
-.name {
-  font-family: "Lato", sans-serif;
-  font-size:16px;
-  font-weight: bold;
-  position:relative;
-  float:left;
-  margin-top:10px; 
-  margin-left:10px; 
-  color:#4d4d4d;
-}
 
-.time {
-  font-family: "Open Sans", sans-serif;
-  font-size:12px;
-  position:relative;
-  float:right;
-  margin-top:10px;
-  margin-right:10px;   
-  color:#878787;
-}
+
+/*float back-top buttom*/
 
 a.back-top {
   display: none;
@@ -138,11 +153,19 @@ a.back-top {
   line-height: 36px;
 }
 
-#gallery:hover{
+/*video iframe*/
+
+iframe{
+  border: 0px;
+}
+
+/*photo.html page*/
+
+.gallery:hover{
    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 }
 
-#gallery {
+.gallery {
    margin-top: 32px;
    margin-bottom:32px;
    padding-bottom: 10px;
@@ -170,6 +193,8 @@ a.back-top {
   display:none;
   
 }
+
+/*project pages*/
 
 .projectTitle{
   font-family: "Lato",sans-serif;
@@ -201,7 +226,22 @@ a.back-top {
   font-weight: 300;
   color:#878787;
   margin-top:10px;
+  margin-bottom: 10px;
+  padding-left: 1em;
 }
+
+.itemContent02{
+  font-family: "Lato",sans-serif;
+  font-size:16px;
+  font-weight: 300;
+  color:#878787;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-right: 4em;
+  padding-left: 1em;
+}
+
+
 
 .video-container {
   position:relative;
@@ -259,6 +299,7 @@ a.back-top {
 }
 
 
+/*installation instruction*/
 
 code{
   font-family: 'Open Sans', serif;
@@ -269,6 +310,7 @@ code{
   padding-left: 5px;
 }
 
+/*all buttom style*/
 
 button {
   display: inline-block;
@@ -308,6 +350,9 @@ button:hover span:after {
   right: 0;
 }
 
+
+/*comodel page*/
+
 .walkRowStatic{
     background-color: #F2F2F2;
     border-spacing: 10px; 
@@ -322,11 +367,16 @@ button:hover span:after {
 
 }
 
-  
+ .itemBox{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
+/*rainstorm page*/
 
 .table {
-  border-spacing:10px; /* need some space ?*/
+  border-spacing:10px; 
   display:table;
   table-layout:fixed;
   width:100%;
@@ -343,6 +393,9 @@ button:hover span:after {
     clear: both;
 }
 
+
+
+/*resume page*/
 
 .sectionTitle{
   font-family: "Lato",sans-serif;
@@ -371,7 +424,7 @@ button:hover span:after {
   float:left;
 }
 
-#test{
+.test{
   padding-right: 48px;
 }
 
